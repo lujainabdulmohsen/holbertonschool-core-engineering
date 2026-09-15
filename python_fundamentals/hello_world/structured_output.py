@@ -7,5 +7,5 @@ valid = version == 3
 
 print(f"Language: {language}")
 print("Version:", version)
-print(f"Pi approx: {pi:.2f}")
+print("Pi approx: {:.2f}".format(pi))
 print("Computation valid:", valid)
